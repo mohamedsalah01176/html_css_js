@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to right,rgb(5, 5, 86),blue,rgb(5, 5, 86));
+    height: 90vh;
+    padding: 20px 30px;
+    color: white;
+    font-size: 25px;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius:10px ;
+}
+.goolgleLink{
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px 12px;
+    width: 160px;
+    transition: .5s;
+}
+.goolgleLink:hover{
+    background-color: rgb(6, 6, 164);
+    color: white;
+}
+.bg_campaign{
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+}
+p{
+    margin-top: 50px;
+    text-align: center;
+}
+p span{
+    /* color: ; */
+    font-size: 30px;
+}
