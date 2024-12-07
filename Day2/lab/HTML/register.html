@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="main.html">
+        <table >
+                <tr>
+                    <td><label for="us">Frist Name</label></td>
+                    <td><input tabindex="1"  name="fristName"  type="text" id="us" placeholder="please enter frist name"></td>
+                </tr>
+                <tr>
+                    <td><label for="ln">Last Name</label></td>
+                    <td><input tabindex="2"  name="lastName"  type="text" id="ln" placeholder="please enter last name"></td>
+                </tr>
+                <tr>
+                    <td><label for="em">Email</label></td>
+                    <td><input tabindex="3"  name="email"  type="email" id="em" placeholder="please enter email"></td>
+                </tr>
+                <tr>
+                    <td><label for="ps">Password</label></td>
+                    <td><input tabindex="4"  name="password"  type="password" id="ps" placeholder="please enter password"></td>
+                </tr>
+                <tr>
+                    <td><label for="dt">BarthBay</label></td>
+                    <td><input tabindex="4"  name="password"  type="date" id="dt" ></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><label for="ps">Gender</label></td>
+                    <td>
+                        <input id="ml" checked  name="gender"  type="radio" >
+                        <label for="ml">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="fm" name="gender"  type="radio" >
+                        <label for="fm">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="1"><label for="country">Country</label></td>
+                    <td>
+                        <select id="country" name="country" id="cars">
+                            <option value="" selected>select acountry</option>
+                            <optgroup label="Africa">
+                                <option value="Egypt">Egypt</option>
+                                <option value="Sudan">Sudan</option>
+                            </optgroup>
+                            <optgroup label="Europa">
+                                <option value="Spain">Spain</option>
+                                <option disabled value="italy">italy</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="Intersts" colspan="2">Intersts</td>
+                </tr>
+                <tr >
+                    <td class="Intersts" colspan="2" >
+                        <div>
+                            <input id="sp"   name="Intersts1" value="Sports"  type="checkbox" >
+                            <label for="sp">Sports</label>
+                        </div>
+                        <div>
+                            <input id="mu"   name="Intersts2" value="Music"  type="checkbox" >
+                            <label for="mu">Music</label>
+                        </div>
+                        <div>
+                            <input id="fs"   name="Intersts3" value="Fashion"  type="checkbox" >
+                            <label for="fs">Fashion</label>
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <input id="rd"   name="Intersts4" value="Reading"  type="checkbox" >
+                            <label for="rd">Reading</label>
+                        </div>
+                        <div>
+                            <input id="sh"   name="Intersts5" value="Shopping"  type="checkbox" >
+                            <label for="sh">Shopping</label>
+                        </div>
+                        <div>
+                            <input id="mv"   name="Intersts6" value="Movies"  type="checkbox" >
+                            <label for="mv">Movies</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Intersts" colspan="2" name="">Bio</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea cols="40" rows="10" placeholder="Tell us about yourself"  ></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>

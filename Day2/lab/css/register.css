@@ -1,0 +1,65 @@
+*{
+    font-size: 20px;
+    color: white;
+}
+body{
+    background: linear-gradient(to right,blue,rgb(5, 5, 86));
+    height: 90vh;
+    padding: 20px 30px;
+}
+table{
+    margin: auto;
+}
+
+td{
+    padding: 13px;
+}
+td[name="Intersts"]{
+    text-align: center;
+}
+tr .Intersts{
+    text-align: center;
+}
+table,tr,td{
+    border: 1px solid white;
+}
+input{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+tr td div{
+    display: inline-block;
+    margin: 0 20px;
+}
+textarea{
+    color: rgb(0, 0, 0);
+}
+
+ td input[type="submit"],td input[type="Reset"]{
+    width: 100px;
+    text-align: center;
+    padding: 7px 14px;
+    background-color: white;
+    color: blue;
+    border-radius: 7px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+select option, select optgroup{
+    color: black;
+}
+select{
+    width: 100%;
+    color: black;
+}
