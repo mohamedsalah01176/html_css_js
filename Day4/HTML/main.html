@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            gap: 10px;
+        }
+        #con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: black;
+            height: 20vh;
+            font-size: 24px;
+        }
+        button {
+            padding: 7px 13px;
+            border-radius: 10px;
+            background-color: blue;
+            color: white;
+            font-size: 22px;
+            cursor: pointer;
+            border: none;
+            transition: .5s;
+        }
+
+        button:hover {
+            background-color: white;
+            color: blue;
+        }
+        span{
+            color: blue;
+            font-size: 30px;
+            display: inline-block;
+            margin: 0 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div  id="btn">
+        <button onclick="task1()">task1</button>
+        <button onclick="task2()">task2</button>
+        <button onclick="task3()">task3</button>
+        <button onclick="task4()">task4</button>
+        <button onclick="task5()">task5</button>
+        <button onclick="task6()">task6</button>
+    </div>
+
+
+    <div id="con"></div>
+
+
+
+
+
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>
